@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main() {
+ int num,n1 =10,n2=20;
+ printf("Print Odd Numbers :\n");
+ for (num = n1; num <= n2; num++) {
+   if (num % 2 == 1)
+     printf ("%d ", num);
+ }
+ return 0;
+}
